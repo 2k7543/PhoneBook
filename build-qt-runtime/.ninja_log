@@ -1,0 +1,236 @@
+# ninja log v7
+286	457	8169426907673456	PhoneBookManagementQt_autogen/timestamp	6786b79376f6b0d3
+286	457	8169426907673456	PhoneBookManagementQt_autogen/mocs_compilation.cpp	6786b79376f6b0d3
+286	457	8169426907673456	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/timestamp	6786b79376f6b0d3
+286	457	8169426907673456	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/mocs_compilation.cpp	6786b79376f6b0d3
+496	895	8169407200996323	PhoneBookManagementQt_autogen/3YJK5W5UP7/qrc_resources.cpp	bbd0370bc3e50582
+496	895	8169407200996323	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/3YJK5W5UP7/qrc_resources.cpp	bbd0370bc3e50582
+6117	6306	8169422716064576	CMakeFiles/PhoneBookManagementQt.dir/PhoneBookManagementQt_autogen/mocs_compilation.cpp.obj	7ff9860963031d3a
+6132	6371	8169422716214044	CMakeFiles/PhoneBookManagementQt.dir/PhoneBookManagementQt_autogen/3YJK5W5UP7/qrc_resources.cpp.obj	7d1d71681de155d3
+106	334	8169426905879717	UserTest_autogen/timestamp	bc6eb02a1417afa0
+106	334	8169426905879717	UserTest_autogen/mocs_compilation.cpp	bc6eb02a1417afa0
+106	334	8169426905879717	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/UserTest_autogen/timestamp	bc6eb02a1417afa0
+106	334	8169426905879717	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/UserTest_autogen/mocs_compilation.cpp	bc6eb02a1417afa0
+139	375	8169426906202041	ContactTest_autogen/timestamp	93c4e2f156576362
+139	375	8169426906202041	ContactTest_autogen/mocs_compilation.cpp	93c4e2f156576362
+139	375	8169426906202041	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactTest_autogen/timestamp	93c4e2f156576362
+139	375	8169426906202041	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactTest_autogen/mocs_compilation.cpp	93c4e2f156576362
+121	350	8169426906015593	AuthServiceTest_autogen/timestamp	7de7f8f51565653c
+121	350	8169426906015593	AuthServiceTest_autogen/mocs_compilation.cpp	7de7f8f51565653c
+121	350	8169426906015593	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/AuthServiceTest_autogen/timestamp	7de7f8f51565653c
+121	350	8169426906015593	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/AuthServiceTest_autogen/mocs_compilation.cpp	7de7f8f51565653c
+158	364	8169426906393687	GroupTest_autogen/timestamp	5eed471fa7d98765
+158	364	8169426906393687	GroupTest_autogen/mocs_compilation.cpp	5eed471fa7d98765
+158	364	8169426906393687	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/GroupTest_autogen/timestamp	5eed471fa7d98765
+158	364	8169426906393687	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/GroupTest_autogen/mocs_compilation.cpp	5eed471fa7d98765
+172	386	8169426906531049	ContactServiceTest_autogen/timestamp	6733b5fcb513c2da
+172	386	8169426906531049	ContactServiceTest_autogen/mocs_compilation.cpp	6733b5fcb513c2da
+172	386	8169426906531049	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactServiceTest_autogen/timestamp	6733b5fcb513c2da
+172	386	8169426906531049	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactServiceTest_autogen/mocs_compilation.cpp	6733b5fcb513c2da
+2475	2821	8169422679640059	CMakeFiles/ContactTest.dir/ContactTest_autogen/mocs_compilation.cpp.obj	c7468ec384902775
+2374	2565	8169422678623713	CMakeFiles/UserTest.dir/UserTest_autogen/mocs_compilation.cpp.obj	54dacb1ed97ca667
+2407	2684	8169422678958333	CMakeFiles/AuthServiceTest.dir/AuthServiceTest_autogen/mocs_compilation.cpp.obj	a6e2fdd10209031c
+2441	2686	8169422679291375	CMakeFiles/GroupTest.dir/GroupTest_autogen/mocs_compilation.cpp.obj	a3b71ace6e70866d
+2514	2874	8169422680020015	CMakeFiles/ContactServiceTest.dir/ContactServiceTest_autogen/mocs_compilation.cpp.obj	a1a70cfb4f8a0405
+911	2681	8169407201478101	CMakeFiles/PhoneBookManagementQt.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Database/Database.cpp.obj	b65c17f778e548f2
+918	2847	8169407201558636	CMakeFiles/PhoneBookManagementQt.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Utils/DateTime.cpp.obj	65989ed6d2edcd0f
+268	1193	8169408461132495	CMakeFiles/PhoneBookManagementQt.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/PhoneBookRuntime.cpp.obj	7e4b1628546cf6db
+926	3673	8169407201631652	CMakeFiles/PhoneBookManagementQt.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Utils/PasswordHasher.cpp.obj	7cb0526067973a6a
+2383	7010	8169422678720000	CMakeFiles/UserTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/tests/UserTest.cpp.obj	bd9780414c67c9cb
+2415	6920	8169422679041605	CMakeFiles/AuthServiceTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/tests/AuthServiceTest.cpp.obj	6b87379f0287d501
+2485	7190	8169422679738716	CMakeFiles/ContactTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/tests/ContactTest.cpp.obj	d1064fc7bebc0e52
+2522	7092	8169422680097952	CMakeFiles/ContactServiceTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/tests/ContactServiceTest.cpp.obj	eb7895882b6ac354
+2451	6952	8169422679406077	CMakeFiles/GroupTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/tests/GroupTest.cpp.obj	b43944965ff792d9
+6921	7185	8169422724091455	AuthServiceTest.exe	cd684fa27006e5f7
+7010	7242	8169422724995964	UserTest.exe	77c61c421948042a
+7190	7403	8169422726788765	ContactTest.exe	800de58fe34ec21c
+7092	7304	8169422725809981	ContactServiceTest.exe	c35cd2e044f89f60
+6952	7204	8169422724415001	GroupTest.exe	161e9f767f9d58ab
+2308	7311	8169426600400212	CMakeFiles/PhoneBookManagementQt.dir/main.cpp.obj	24fc191ea2ef4a7a
+7311	7554	8169426650479776	PhoneBookManagementQt.exe	bd0ab788fa4f76c
+297	499	8169426907773567	PhoneBookRuntimeTest_autogen/timestamp	a46204dc50342ec8
+297	499	8169426907773567	PhoneBookRuntimeTest_autogen/mocs_compilation.cpp	a46204dc50342ec8
+297	499	8169426907773567	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookRuntimeTest_autogen/timestamp	a46204dc50342ec8
+297	499	8169426907773567	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookRuntimeTest_autogen/mocs_compilation.cpp	a46204dc50342ec8
+1255	1350	8169407575975105	CMakeFiles/PhoneBookRuntimeTest.dir/PhoneBookRuntimeTest_autogen/mocs_compilation.cpp.obj	7f8db258134c83d6
+1267	1867	8169407576092800	CMakeFiles/PhoneBookRuntimeTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Database/Database.cpp.obj	eaa387c8bbfdc175
+1275	1928	8169407576156542	CMakeFiles/PhoneBookRuntimeTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Utils/DateTime.cpp.obj	f00539c9e57f013f
+975	1824	8169408468218035	CMakeFiles/PhoneBookRuntimeTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/PhoneBookRuntime.cpp.obj	b8d3d9be579b3637
+1281	2248	8169407576227700	CMakeFiles/PhoneBookRuntimeTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Utils/PasswordHasher.cpp.obj	af49e96166b9c558
+2960	5405	8169426606925163	CMakeFiles/PhoneBookRuntimeTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/tests/PhoneBookRuntimeTest.cpp.obj	3212f47be80a5f11
+5405	5607	8169426631389803	PhoneBookRuntimeTest.exe	2033b5a468ed4d01
+86	284	8169426905654544	PhoneBookCore_autogen/timestamp	ec7cc17653a6db17
+86	284	8169426905654544	PhoneBookCore_autogen/mocs_compilation.cpp	ec7cc17653a6db17
+86	284	8169426905654544	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookCore_autogen/timestamp	ec7cc17653a6db17
+86	284	8169426905654544	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookCore_autogen/mocs_compilation.cpp	ec7cc17653a6db17
+1274	1744	8169417518124113	CMakeFiles/PhoneBookCore.dir/PhoneBookCore_autogen/mocs_compilation.cpp.obj	960523ee304f2558
+1306	2056	8169417518448697	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Model/ContactGroup.cpp.obj	89dada447cfdd380
+1320	2090	8169417518595040	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Model/User.cpp.obj	f5a8c2288dc47695
+1313	2103	8169417518524389	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Model/ContactPhoneNumber.cpp.obj	675b9a17281f54dd
+1300	2104	8169417518397694	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Model/ContactEmail.cpp.obj	f7674dfadd481899
+1295	2115	8169417518340350	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Model/Contact.cpp.obj	bec0edac166cfbf8
+1282	2214	8169417518214383	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Database/Database.cpp.obj	4779fd76609f3102
+244	1016	8169420890061022	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Database/DatabaseInitializer.cpp.obj	125adeb02d2ad22f
+1341	2492	8169417518795364	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Repository/GroupRepository.cpp.obj	6ed0a4fec21ccabb
+1327	2508	8169417518659238	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Repository/AdminLogRepository.cpp.obj	4f18655c1ddfa573
+257	971	8169426579902441	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/AuthService.cpp.obj	f3fbf7aeb55942
+374	1849	8169422658631986	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/GroupService.cpp.obj	85235a7f77b96b9e
+245	1174	8169426579763342	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Repository/UserRepository.cpp.obj	3a2825ee888d4914
+361	3178	8169422658502353	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/ContactService.cpp.obj	2b29c2bc3474b43b
+349	4030	8169422658383161	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Repository/ContactRepository.cpp.obj	8618bc3fcba07386
+368	5322	8169422658553532	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/CsvService.cpp.obj	80aaf39d9dace81c
+261	826	8169426579962563	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/PasswordResetService.cpp.obj	fa8a4ed49fe68bee
+251	918	8169426579863202	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/AdminService.cpp.obj	b41fd18d09525338
+78	1002	8169417636969050	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Utils/DateTime.cpp.obj	1d4d11585e808085
+267	1995	8169426579972697	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Service/PhoneBookRuntime.cpp.obj	e15a6a22c25c23a1
+275	1304	8169426580101736	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Utils/PasswordHasher.cpp.obj	1a34614ae0147e6
+89	4290	8169417637097039	CMakeFiles/PhoneBookCore.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/main/Utils/Validator.cpp.obj	2415cf60a0c7abd4
+1996	2132	8169426597291365	libPhoneBookCore.a	bad337dc84cb36c8
+56	1043	8170286106093043	build.ninja	3ff745b5ee2049e7
+56	1043	8170286106043745	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/cmake_install.cmake	3ff745b5ee2049e7
+56	1043	8170286106053846	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/CTestTestfile.cmake	3ff745b5ee2049e7
+93	295	8169437414323821	HeadersCompileTest_autogen/timestamp	98e6a9f8089fea39
+93	295	8169437414323821	HeadersCompileTest_autogen/mocs_compilation.cpp	98e6a9f8089fea39
+93	295	8169437414323821	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/HeadersCompileTest_autogen/timestamp	98e6a9f8089fea39
+93	295	8169437414323821	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/HeadersCompileTest_autogen/mocs_compilation.cpp	98e6a9f8089fea39
+554	638	8169426910307567	CMakeFiles/HeadersCompileTest.dir/HeadersCompileTest_autogen/mocs_compilation.cpp.obj	170e25a18df6eacd
+296	3965	8169437416339688	CMakeFiles/HeadersCompileTest.dir/C_/Users/NQ/Documents/VSCODE/PhoneBookManagement_-_Copy/tests/HeadersCompileTest.cpp.obj	708d49cceb57acb
+3965	4262	8169437453005846	HeadersCompileTest.exe	6ad4c71b119f02c
+87	370	8170286108015961	PhoneBookCore_autogen/timestamp	ac2fa5913ced4212
+87	370	8170286108015961	PhoneBookCore_autogen/mocs_compilation.cpp	ac2fa5913ced4212
+87	370	8170286108015961	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookCore_autogen/timestamp	ac2fa5913ced4212
+87	370	8170286108015961	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookCore_autogen/mocs_compilation.cpp	ac2fa5913ced4212
+372	662	8170286110911884	CMakeFiles/PhoneBookCore.dir/PhoneBookCore_autogen/mocs_compilation.cpp.obj	14b821c325a7dddb
+404	1374	8170286111222398	CMakeFiles/PhoneBookCore.dir/src/models/ContactEmail.cpp.obj	b6c0d4d6318cc5cc
+411	1487	8170286111301000	CMakeFiles/PhoneBookCore.dir/src/models/ContactPhoneNumber.cpp.obj	f1a51ae9d5ae1a08
+397	1602	8170286111152413	CMakeFiles/PhoneBookCore.dir/src/models/Contact.cpp.obj	d66b1434efa7fa5b
+380	1702	8170286111001775	CMakeFiles/PhoneBookCore.dir/src/database/Database.cpp.obj	28d3555ad108d9de
+434	1832	8170286111541781	CMakeFiles/PhoneBookCore.dir/src/repositories/GroupRepository.cpp.obj	69f09ff0def5d41
+390	2088	8170286111092610	CMakeFiles/PhoneBookCore.dir/src/database/DatabaseInitializer.cpp.obj	8a7d3fc088b1a6bb
+419	2168	8170286111372987	CMakeFiles/PhoneBookCore.dir/src/repositories/AdminLogRepository.cpp.obj	8352bef908cb99b5
+662	2198	8170286113806106	CMakeFiles/PhoneBookCore.dir/src/services/AdminService.cpp.obj	a8b2b007535bf031
+141	2459	8170286108590800	GroupTest_autogen/timestamp	317f45ead444c948
+141	2459	8170286108590800	GroupTest_autogen/mocs_compilation.cpp	317f45ead444c948
+141	2459	8170286108590800	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/GroupTest_autogen/timestamp	317f45ead444c948
+141	2459	8170286108590800	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/GroupTest_autogen/mocs_compilation.cpp	317f45ead444c948
+127	2486	8170286108424458	ContactTest_autogen/timestamp	122ca8be4c90b683
+127	2486	8170286108424458	ContactTest_autogen/mocs_compilation.cpp	122ca8be4c90b683
+127	2486	8170286108424458	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactTest_autogen/timestamp	122ca8be4c90b683
+127	2486	8170286108424458	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactTest_autogen/mocs_compilation.cpp	122ca8be4c90b683
+111	2539	8170286108280601	UserTest_autogen/timestamp	852055ae841dcf4b
+111	2539	8170286108280601	UserTest_autogen/mocs_compilation.cpp	852055ae841dcf4b
+111	2539	8170286108280601	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/UserTest_autogen/timestamp	852055ae841dcf4b
+111	2539	8170286108280601	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/UserTest_autogen/mocs_compilation.cpp	852055ae841dcf4b
+156	2572	8170286108716011	ContactServiceTest_autogen/timestamp	baad939c1aaae3eb
+156	2572	8170286108716011	ContactServiceTest_autogen/mocs_compilation.cpp	baad939c1aaae3eb
+156	2572	8170286108716011	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactServiceTest_autogen/timestamp	baad939c1aaae3eb
+156	2572	8170286108716011	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactServiceTest_autogen/mocs_compilation.cpp	baad939c1aaae3eb
+444	2611	8170286111631931	CMakeFiles/PhoneBookCore.dir/src/repositories/UserRepository.cpp.obj	d5bef99f81cbe949
+2487	2909	8170286132051925	CMakeFiles/ContactTest.dir/ContactTest_autogen/mocs_compilation.cpp.obj	f94a1b5bb7ba5471
+1703	2981	8170286124211595	CMakeFiles/PhoneBookCore.dir/src/services/GroupService.cpp.obj	372733803995ae37
+2573	3010	8170286132927946	CMakeFiles/UserTest.dir/UserTest_autogen/mocs_compilation.cpp.obj	562848431ffd1264
+1832	3085	8170286125524250	CMakeFiles/PhoneBookCore.dir/src/services/PasswordResetService.cpp.obj	fc6119e6062a1952
+1374	3097	8170286120939439	CMakeFiles/PhoneBookCore.dir/src/services/AuthService.cpp.obj	a138b912eec6bdf3
+2909	3308	8170286136278641	CMakeFiles/GroupTest.dir/GroupTest_autogen/mocs_compilation.cpp.obj	95b8cf8c1f1a7e02
+3011	3355	8170286137302139	CMakeFiles/ContactServiceTest.dir/ContactServiceTest_autogen/mocs_compilation.cpp.obj	aa116104ba78ef67
+1487	3586	8170286122068449	CMakeFiles/PhoneBookCore.dir/src/services/ContactService.cpp.obj	cfd64401d2f29bc4
+2168	3658	8170286128866323	CMakeFiles/PhoneBookCore.dir/src/utils/DateTime.cpp.obj	6c74d9d938e17ae1
+426	3665	8170286111452452	CMakeFiles/PhoneBookCore.dir/src/repositories/ContactRepository.cpp.obj	6916d121984c75ff
+2198	4204	8170286129166632	CMakeFiles/PhoneBookCore.dir/src/utils/PasswordHasher.cpp.obj	910642947715ce28
+1602	5421	8170286123207431	CMakeFiles/PhoneBookCore.dir/src/services/CsvService.cpp.obj	524183d302212af8
+2088	5717	8170286128061865	CMakeFiles/PhoneBookCore.dir/src/services/PhoneBookRuntime.cpp.obj	950df8463d38ebc7
+2612	6341	8170286133310926	CMakeFiles/UserTest.dir/tests/UserTest.cpp.obj	515607694a6ff6a8
+2540	6414	8170286132592317	CMakeFiles/ContactTest.dir/tests/ContactTest.cpp.obj	d50072f7c444ac46
+2981	6486	8170286136991535	CMakeFiles/GroupTest.dir/tests/GroupTest.cpp.obj	e34f077bf0a60a25
+6341	6523	8170286170577438	UserTest.exe	7654d03bc227ce3a
+3085	6549	8170286138035909	CMakeFiles/ContactServiceTest.dir/tests/ContactServiceTest.cpp.obj	2e652a68bb3b2b7a
+6414	6574	8170286171333453	ContactTest.exe	9f47f897c4ebf445
+6486	6638	8170286172046359	GroupTest.exe	9649a045ffae1ec0
+6549	6684	8170286172682195	ContactServiceTest.exe	26557e20c2ea4425
+2460	7889	8170286131777863	CMakeFiles/PhoneBookCore.dir/src/utils/Validator.cpp.obj	62f1b0de75abcf9
+7889	8050	8170286186069516	libPhoneBookCore.a	e586916f878cb0f8
+8050	8305	8170286187670512	PhoneBookManagementQt_autogen/timestamp	fcff3d05cfccdff3
+8050	8305	8170286187670512	PhoneBookManagementQt_autogen/mocs_compilation.cpp	fcff3d05cfccdff3
+8050	8305	8170286187670512	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/timestamp	fcff3d05cfccdff3
+8050	8305	8170286187670512	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/mocs_compilation.cpp	fcff3d05cfccdff3
+8085	8341	8170286188009103	HeadersCompileTest_autogen/timestamp	d509622e9b389233
+8085	8341	8170286188009103	HeadersCompileTest_autogen/mocs_compilation.cpp	d509622e9b389233
+8085	8341	8170286188009103	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/HeadersCompileTest_autogen/timestamp	d509622e9b389233
+8085	8341	8170286188009103	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/HeadersCompileTest_autogen/mocs_compilation.cpp	d509622e9b389233
+8341	8434	8170286190589760	CMakeFiles/HeadersCompileTest.dir/HeadersCompileTest_autogen/mocs_compilation.cpp.obj	693e996dbe1a442c
+8305	8439	8170286191329027	PhoneBookManagementQt_autogen/3A7GXDRGQJ/qrc_resources.cpp	63d932809d0c2a19
+8305	8439	8170286191329027	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/3A7GXDRGQJ/qrc_resources.cpp	63d932809d0c2a19
+8439	8524	8170286191578315	CMakeFiles/PhoneBookManagementQt.dir/PhoneBookManagementQt_autogen/mocs_compilation.cpp.obj	48acc1cae26b9528
+8451	8557	8170286191699587	CMakeFiles/PhoneBookManagementQt.dir/PhoneBookManagementQt_autogen/3A7GXDRGQJ/qrc_resources.cpp.obj	3315c27627b30172
+8347	8812	8170286190664679	CMakeFiles/HeadersCompileTest.dir/tests/HeadersCompileTest.cpp.obj	c30dacfa48825804
+8812	9046	8170286195316621	HeadersCompileTest.exe	b5c0d2fc1837ddc0
+8062	9183	8170286187806935	AuthServiceTest_autogen/timestamp	467a527dc8460c42
+8062	9183	8170286187806935	AuthServiceTest_autogen/mocs_compilation.cpp	467a527dc8460c42
+8062	9183	8170286187806935	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/AuthServiceTest_autogen/timestamp	467a527dc8460c42
+8062	9183	8170286187806935	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/AuthServiceTest_autogen/mocs_compilation.cpp	467a527dc8460c42
+8073	9208	8170286187900511	PhoneBookRuntimeTest_autogen/timestamp	5d1ad261f5496cf1
+8073	9208	8170286187900511	PhoneBookRuntimeTest_autogen/mocs_compilation.cpp	5d1ad261f5496cf1
+8073	9208	8170286187900511	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookRuntimeTest_autogen/timestamp	5d1ad261f5496cf1
+8073	9208	8170286187900511	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookRuntimeTest_autogen/mocs_compilation.cpp	5d1ad261f5496cf1
+9183	9260	8170286199012997	CMakeFiles/AuthServiceTest.dir/AuthServiceTest_autogen/mocs_compilation.cpp.obj	7ef6f53ba4fbc89c
+9209	9283	8170286199264495	CMakeFiles/PhoneBookRuntimeTest.dir/PhoneBookRuntimeTest_autogen/mocs_compilation.cpp.obj	5f1e939b137ed303
+9189	11377	8170286199058420	CMakeFiles/AuthServiceTest.dir/tests/AuthServiceTest.cpp.obj	9b03846791ef7b6a
+11377	11538	8170286220949390	AuthServiceTest.exe	44d33fdd5f78ac80
+9214	11724	8170286199333778	CMakeFiles/PhoneBookRuntimeTest.dir/tests/PhoneBookRuntimeTest.cpp.obj	60a0c82c2fa6b172
+11724	11875	8170286224390707	PhoneBookRuntimeTest.exe	2464371660436e4d
+8445	13771	8170286191635200	CMakeFiles/PhoneBookManagementQt.dir/app/qt/main.cpp.obj	265ac779d1ea01d7
+13771	13973	8170286244855206	PhoneBookManagementQt.exe	2cf6dfbe8fca0540
+46	208	8170295684356748	PhoneBookCore_autogen/timestamp	ac2fa5913ced4212
+46	208	8170295684356748	PhoneBookCore_autogen/mocs_compilation.cpp	ac2fa5913ced4212
+46	208	8170295684356748	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookCore_autogen/timestamp	ac2fa5913ced4212
+46	208	8170295684356748	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookCore_autogen/mocs_compilation.cpp	ac2fa5913ced4212
+80	308	8170295684702050	ContactTest_autogen/timestamp	122ca8be4c90b683
+80	308	8170295684702050	ContactTest_autogen/mocs_compilation.cpp	122ca8be4c90b683
+80	308	8170295684702050	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactTest_autogen/timestamp	122ca8be4c90b683
+80	308	8170295684702050	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactTest_autogen/mocs_compilation.cpp	122ca8be4c90b683
+61	340	8170295684515223	UserTest_autogen/timestamp	852055ae841dcf4b
+61	340	8170295684515223	UserTest_autogen/mocs_compilation.cpp	852055ae841dcf4b
+61	340	8170295684515223	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/UserTest_autogen/timestamp	852055ae841dcf4b
+61	340	8170295684515223	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/UserTest_autogen/mocs_compilation.cpp	852055ae841dcf4b
+115	377	8170295685049965	ContactServiceTest_autogen/timestamp	baad939c1aaae3eb
+115	377	8170295685049965	ContactServiceTest_autogen/mocs_compilation.cpp	baad939c1aaae3eb
+115	377	8170295685049965	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactServiceTest_autogen/timestamp	baad939c1aaae3eb
+115	377	8170295685049965	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactServiceTest_autogen/mocs_compilation.cpp	baad939c1aaae3eb
+98	396	8170295684884521	GroupTest_autogen/timestamp	317f45ead444c948
+98	396	8170295684884521	GroupTest_autogen/mocs_compilation.cpp	317f45ead444c948
+98	396	8170295684884521	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/GroupTest_autogen/timestamp	317f45ead444c948
+98	396	8170295684884521	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/GroupTest_autogen/mocs_compilation.cpp	317f45ead444c948
+234	868	8170295686248460	CMakeFiles/PhoneBookCore.dir/src/services/PasswordResetService.cpp.obj	fc6119e6062a1952
+222	993	8170295686123242	CMakeFiles/PhoneBookCore.dir/src/services/AdminService.cpp.obj	a8b2b007535bf031
+228	1116	8170295686183247	CMakeFiles/PhoneBookCore.dir/src/services/AuthService.cpp.obj	a138b912eec6bdf3
+215	1411	8170295686054898	CMakeFiles/PhoneBookCore.dir/src/repositories/UserRepository.cpp.obj	d5bef99f81cbe949
+209	1569	8170295685990589	CMakeFiles/PhoneBookCore.dir/src/database/DatabaseInitializer.cpp.obj	8a7d3fc088b1a6bb
+241	2181	8170295686308539	CMakeFiles/PhoneBookCore.dir/src/services/PhoneBookRuntime.cpp.obj	950df8463d38ebc7
+249	3944	8170295686384705	CMakeFiles/PhoneBookCore.dir/src/utils/Validator.cpp.obj	62f1b0de75abcf9
+3944	4057	8170295723339447	libPhoneBookCore.a	e586916f878cb0f8
+4057	4211	8170295724476365	PhoneBookManagementQt_autogen/timestamp	fcff3d05cfccdff3
+4057	4211	8170295724476365	PhoneBookManagementQt_autogen/mocs_compilation.cpp	fcff3d05cfccdff3
+4057	4211	8170295724476365	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/timestamp	fcff3d05cfccdff3
+4057	4211	8170295724476365	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/mocs_compilation.cpp	fcff3d05cfccdff3
+4083	4489	8170295724734056	CMakeFiles/HeadersCompileTest.dir/tests/HeadersCompileTest.cpp.obj	c30dacfa48825804
+4489	4641	8170295728797124	HeadersCompileTest.exe	b5c0d2fc1837ddc0
+4067	5013	8170295724569209	AuthServiceTest_autogen/timestamp	467a527dc8460c42
+4067	5013	8170295724569209	AuthServiceTest_autogen/mocs_compilation.cpp	467a527dc8460c42
+4067	5013	8170295724569209	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/AuthServiceTest_autogen/timestamp	467a527dc8460c42
+4067	5013	8170295724569209	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/AuthServiceTest_autogen/mocs_compilation.cpp	467a527dc8460c42
+4076	5028	8170295724658810	PhoneBookRuntimeTest_autogen/timestamp	5d1ad261f5496cf1
+4076	5028	8170295724658810	PhoneBookRuntimeTest_autogen/mocs_compilation.cpp	5d1ad261f5496cf1
+4076	5028	8170295724658810	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookRuntimeTest_autogen/timestamp	5d1ad261f5496cf1
+4076	5028	8170295724658810	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookRuntimeTest_autogen/mocs_compilation.cpp	5d1ad261f5496cf1
+5013	7168	8170295734033960	CMakeFiles/AuthServiceTest.dir/tests/AuthServiceTest.cpp.obj	9b03846791ef7b6a
+7169	7342	8170295755589463	AuthServiceTest.exe	44d33fdd5f78ac80
+5028	7548	8170295734178010	CMakeFiles/PhoneBookRuntimeTest.dir/tests/PhoneBookRuntimeTest.cpp.obj	60a0c82c2fa6b172
+7549	7699	8170295759382172	PhoneBookRuntimeTest.exe	2464371660436e4d
+4212	9407	8170295726020886	CMakeFiles/PhoneBookManagementQt.dir/app/qt/main.cpp.obj	265ac779d1ea01d7
+52	254	8170296371914574	PhoneBookManagementQt.exe	2cf6dfbe8fca0540
+39	174	8170298288330232	PhoneBookManagementQt_autogen/timestamp	fcff3d05cfccdff3
+39	174	8170298288330232	PhoneBookManagementQt_autogen/mocs_compilation.cpp	fcff3d05cfccdff3
+39	174	8170298288330232	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/timestamp	fcff3d05cfccdff3
+39	174	8170298288330232	C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookManagementQt_autogen/mocs_compilation.cpp	fcff3d05cfccdff3
+175	4529	8170298289715087	CMakeFiles/PhoneBookManagementQt.dir/app/qt/main.cpp.obj	265ac779d1ea01d7
+4531	4734	8170298333275947	PhoneBookManagementQt.exe	2cf6dfbe8fca0540

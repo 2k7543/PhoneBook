@@ -1,0 +1,108 @@
+Start testing: Nov 22 12:50 SE Asia Standard Time
+----------------------------------------------------------
+1/7 Testing: UserTest
+1/7 Test: UserTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/UserTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime
+"UserTest" start time: Nov 22 12:50 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"UserTest" end time: Nov 22 12:50 SE Asia Standard Time
+"UserTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: AuthServiceTest
+2/7 Test: AuthServiceTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/AuthServiceTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime
+"AuthServiceTest" start time: Nov 22 12:50 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.49 sec
+----------------------------------------------------------
+Test Passed.
+"AuthServiceTest" end time: Nov 22 12:50 SE Asia Standard Time
+"AuthServiceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: ContactTest
+3/7 Test: ContactTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime
+"ContactTest" start time: Nov 22 12:50 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ContactTest" end time: Nov 22 12:50 SE Asia Standard Time
+"ContactTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: GroupTest
+4/7 Test: GroupTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/GroupTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime
+"GroupTest" start time: Nov 22 12:50 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"GroupTest" end time: Nov 22 12:50 SE Asia Standard Time
+"GroupTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: ContactServiceTest
+5/7 Test: ContactServiceTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/ContactServiceTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime
+"ContactServiceTest" start time: Nov 22 12:50 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ContactServiceTest" end time: Nov 22 12:50 SE Asia Standard Time
+"ContactServiceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: PhoneBookRuntimeTest
+6/7 Test: PhoneBookRuntimeTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/PhoneBookRuntimeTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime
+"PhoneBookRuntimeTest" start time: Nov 22 12:50 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.65 sec
+----------------------------------------------------------
+Test Passed.
+"PhoneBookRuntimeTest" end time: Nov 22 12:50 SE Asia Standard Time
+"PhoneBookRuntimeTest" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/7 Testing: HeadersCompileTest
+7/7 Test: HeadersCompileTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime/HeadersCompileTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement - Copy/build-qt-runtime
+"HeadersCompileTest" start time: Nov 22 12:50 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"HeadersCompileTest" end time: Nov 22 12:50 SE Asia Standard Time
+"HeadersCompileTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 22 12:50 SE Asia Standard Time

@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="book-user">icons/book-user-01.svg</file>
+        <file alias="users">icons/users-round-01.svg</file>
+        <file alias="star">icons/star-01.svg</file>
+        <file alias="settings">icons/settings-2-01.svg</file>
+        <file alias="download">icons/download-01.svg</file>
+        <file alias="upload">icons/upload-01.svg</file>
+        <file alias="search">icons/search-01.svg</file>
+        <file alias="plus">icons/plus-01.svg</file>
+        <file alias="plus-white">icons/plus-white.svg</file>
+        <file alias="ellipsis">icons/ellipsis-01.svg</file>
+        <file alias="phone">icons/phone-01.svg</file>
+        <file alias="mail">icons/mail-01.svg</file>
+        <file alias="pin">icons/map-pin-01.svg</file>
+        <file alias="cake">icons/cake-01.svg</file>
+        <file alias="pencil">icons/pencil-01.svg</file>
+        <file alias="trash">icons/trash-2-01.svg</file>
+        <file alias="chevron-down">icons/chevron-down-01.svg</file>
+        <file alias="chevron-left">icons/chevron-left-01.svg</file>
+        <file alias="arrow-a-z">icons/arrow-down-a-z-01.svg</file>
+        <file alias="check">icons/check-01.svg</file>
+        <file alias="eye">icons/eye-01.svg</file>
+        <file alias="eye-off">icons/eye-off-01.svg</file>
+        <file alias="dialog-contact">icons/contact-round.svg</file>
+        <file alias="dialog-phone">icons/phone.svg</file>
+        <file alias="dialog-mail">icons/mail.svg</file>
+        <file alias="dialog-pin">icons/map-pin.svg</file>
+        <file alias="dialog-company">icons/book-user.svg</file>
+        <file alias="dialog-pencil">icons/pencil.svg</file>
+        <file alias="dialog-x">icons/x.svg</file>
+        <file alias="dialog-check">icons/check.svg</file>
+    </qresource>
+</RCC>

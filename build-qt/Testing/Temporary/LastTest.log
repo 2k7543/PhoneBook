@@ -1,0 +1,78 @@
+Start testing: Nov 21 09:59 SE Asia Standard Time
+----------------------------------------------------------
+1/5 Testing: UserTest
+1/5 Test: UserTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt/UserTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt
+"UserTest" start time: Nov 21 09:59 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"UserTest" end time: Nov 21 09:59 SE Asia Standard Time
+"UserTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: AuthServiceTest
+2/5 Test: AuthServiceTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt/AuthServiceTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt
+"AuthServiceTest" start time: Nov 21 09:59 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"AuthServiceTest" end time: Nov 21 09:59 SE Asia Standard Time
+"AuthServiceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: ContactTest
+3/5 Test: ContactTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt/ContactTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt
+"ContactTest" start time: Nov 21 09:59 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ContactTest" end time: Nov 21 09:59 SE Asia Standard Time
+"ContactTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: GroupTest
+4/5 Test: GroupTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt/GroupTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt
+"GroupTest" start time: Nov 21 09:59 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"GroupTest" end time: Nov 21 09:59 SE Asia Standard Time
+"GroupTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: ContactServiceTest
+5/5 Test: ContactServiceTest
+Command: "C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt/ContactServiceTest.exe"
+Directory: C:/Users/NQ/Documents/VSCODE/PhoneBookManagement/build-qt
+"ContactServiceTest" start time: Nov 21 09:59 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"ContactServiceTest" end time: Nov 21 09:59 SE Asia Standard Time
+"ContactServiceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 21 09:59 SE Asia Standard Time

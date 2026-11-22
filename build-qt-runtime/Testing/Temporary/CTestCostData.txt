@@ -1,0 +1,8 @@
+UserTest 15 0.00428536
+AuthServiceTest 15 0.0328141
+ContactTest 15 0.00234017
+GroupTest 15 0.00286726
+ContactServiceTest 15 0.00279435
+PhoneBookRuntimeTest 14 0.117525
+HeadersCompileTest 7 0.003411
+---
