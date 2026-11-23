@@ -10,6 +10,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     qt6-svg-dev \
     libsqlite3-dev \
     libssl-dev \
+    libcurl4-openssl-dev \
+    ca-certificates \
     libcpp-httplib-dev \
     nlohmann-json3-dev \
     && rm -rf /var/lib/apt/lists/*

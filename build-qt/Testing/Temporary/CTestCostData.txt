@@ -1,6 +1,0 @@
-UserTest 2 0.0232721
-AuthServiceTest 2 0.0214239
-ContactTest 2 0.0201853
-GroupTest 2 0.0242976
-ContactServiceTest 2 0.0205952
----

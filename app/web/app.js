@@ -3,7 +3,7 @@ const appView = document.querySelector("#appView");
 const authForms = {
   login: document.querySelector("#loginForm"),
   register: document.querySelector("#registerForm"),
-  reset: document.querySelector("#resetForm"),
+  reset: document.querySelector("#resetPanel"),
 };
 const state = {
   user: null,
@@ -314,6 +314,19 @@ document.querySelector("#registerForm").addEventListener("submit", async (event)
   } catch (error) { showToast(error.message, true); }
 });
 
+document.querySelector("#requestResetForm").addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const form = new FormData(event.currentTarget);
+  try {
+    const result = await api("/api/password/request", {
+      method: "POST",
+      body: JSON.stringify({ email: form.get("email") }),
+    });
+    document.querySelector("#resetForm").classList.remove("hidden");
+    showToast(result.message);
+  } catch (error) { showToast(error.message, true); }
+});
+
 document.querySelector("#resetForm").addEventListener("submit", async (event) => {
   event.preventDefault();
   const form = new FormData(event.currentTarget);
@@ -327,6 +340,8 @@ document.querySelector("#resetForm").addEventListener("submit", async (event) =>
       body: JSON.stringify({ token: form.get("token"), password: form.get("password") }),
     });
     event.currentTarget.reset();
+    document.querySelector("#requestResetForm").reset();
+    event.currentTarget.classList.add("hidden");
     setAuthMode("login");
     showToast("Đặt lại mật khẩu thành công.");
   } catch (error) { showToast(error.message, true); }

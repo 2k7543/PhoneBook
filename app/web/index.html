@@ -31,14 +31,21 @@
         <button class="primary" type="submit">Tạo tài khoản</button>
         <p class="switch-copy">Đã có tài khoản? <button class="text-button" type="button" data-view="login">Đăng nhập</button></p>
       </form>
-      <form id="resetForm" class="stack hidden">
-        <p class="muted">Nhập mã do quản trị viên cấp và mật khẩu mới.</p>
-        <label>Mã đặt lại<input name="token" autocomplete="one-time-code" required></label>
-        <label>Mật khẩu mới<input name="password" type="password" autocomplete="new-password" minlength="8" required></label>
-        <label>Nhập lại mật khẩu mới<input name="confirmation" type="password" autocomplete="new-password" minlength="8" required></label>
-        <button class="primary" type="submit">Đặt lại mật khẩu</button>
+      <div id="resetPanel" class="stack hidden">
+        <form id="requestResetForm" class="stack">
+          <p class="muted">Nhập email đã đăng ký để nhận mã đặt lại mật khẩu.</p>
+          <label>Email<input name="email" type="email" autocomplete="email" required></label>
+          <button class="secondary" type="submit">Gửi mã qua email</button>
+        </form>
+        <form id="resetForm" class="stack hidden">
+          <p class="muted">Mã chỉ dùng một lần và có hiệu lực trong 15 phút.</p>
+          <label>Mã đặt lại<input name="token" autocomplete="one-time-code" required></label>
+          <label>Mật khẩu mới<input name="password" type="password" autocomplete="new-password" minlength="8" required></label>
+          <label>Nhập lại mật khẩu mới<input name="confirmation" type="password" autocomplete="new-password" minlength="8" required></label>
+          <button class="primary" type="submit">Đặt lại mật khẩu</button>
+        </form>
         <p class="switch-copy"><button class="text-button" type="button" data-view="login">Quay lại đăng nhập</button></p>
-      </form>
+      </div>
     </section>
   </main>
 

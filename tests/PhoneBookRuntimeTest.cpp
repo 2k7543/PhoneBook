@@ -161,6 +161,13 @@ private slots:
         runtime.removeGroup(2, groupId);
         runtime.removeContact(2, contactId);
 
+        const auto emailResetToken =
+            runtime.requestPasswordReset(" USER@example.com ");
+        QVERIFY(emailResetToken.has_value());
+        runtime.resetPassword(*emailResetToken, "SelfServicePass123");
+        QCOMPARE(runtime.authenticate("user", "SelfServicePass123").userId, 2);
+        QVERIFY(!runtime.requestPasswordReset("missing@example.com").has_value());
+
         // Verifies reset-token invalidation, one-time redemption, and locked-account rejection.
         const std::string firstToken = runtime.issuePasswordResetToken(1, 2);
         const std::string token = runtime.issuePasswordResetToken(1, 2);

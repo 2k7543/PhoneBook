@@ -265,6 +265,14 @@ int PhoneBookRuntime::exportContacts(
     return csvService_.exportContacts(userId, filePath);
 }
 
+std::optional<std::string> PhoneBookRuntime::requestPasswordReset(
+    const std::string& email) {
+    Transaction transaction(database_);
+    auto token = passwordResetService_.requestReset(email);
+    transaction.commit();
+    return token;
+}
+
 void PhoneBookRuntime::resetPassword(const std::string& token,
                                      const std::string& newPassword) {
     passwordResetService_.resetPassword(token, newPassword);

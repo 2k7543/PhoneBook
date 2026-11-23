@@ -10,6 +10,7 @@ set(CMAKE_AUTORCC ON)
 find_package(Qt6 REQUIRED COMPONENTS Widgets Svg)
 find_package(SQLite3 REQUIRED)
 find_package(OpenSSL REQUIRED)
+find_package(CURL REQUIRED)
 
 set(PHONEBOOK_CORE_SOURCES
     src/database/Database.cpp
@@ -57,12 +58,13 @@ if(NOT HTTPLIB_INCLUDE_DIR OR NOT HTTPLIB_LIBRARY)
 endif()
 
 add_executable(PhoneBookWebServer app/server/main.cpp)
+target_sources(PhoneBookWebServer PRIVATE app/server/EmailSender.cpp)
 target_include_directories(PhoneBookWebServer PRIVATE ${HTTPLIB_INCLUDE_DIR})
 target_compile_definitions(PhoneBookWebServer PRIVATE
     PHONEBOOK_WEB_ROOT="${CMAKE_CURRENT_SOURCE_DIR}/app/web"
 )
 target_link_libraries(PhoneBookWebServer PRIVATE
-    PhoneBookCore ${HTTPLIB_LIBRARY} nlohmann_json::nlohmann_json
+    PhoneBookCore ${HTTPLIB_LIBRARY} nlohmann_json::nlohmann_json CURL::libcurl
 )
 
 find_package(Qt6 QUIET COMPONENTS Test)
@@ -85,6 +87,7 @@ if(Qt6Test_FOUND)
     add_phonebook_test(ContactTest tests/ContactTest.cpp)
     add_phonebook_test(GroupTest tests/GroupTest.cpp)
     add_phonebook_test(ContactServiceTest tests/ContactServiceTest.cpp)
+    add_subdirectory(unit_tests)
 
     add_executable(PhoneBookRuntimeTest
         tests/PhoneBookRuntimeTest.cpp

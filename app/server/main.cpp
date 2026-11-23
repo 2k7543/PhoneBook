@@ -1,5 +1,7 @@
 #include "service/PhoneBookRuntime.h"
 #include "service/ServiceException.h"
+#include "EmailSender.h"
+#include "utils/Validator.h"
 
 #include <httplib.h>
 #include <nlohmann/json.hpp>
@@ -244,7 +246,7 @@ std::string csvFileName() {
     return newSessionToken() + ".csv";
 }
 
-void registerRoutes(httplib::Server& server) {
+void registerRoutes(httplib::Server& server, const EmailSender& emailSender) {
     server.set_payload_max_length(kMaxUploadBytes);
 
     server.Get("/api/health", [](const httplib::Request&, httplib::Response& response) {
@@ -309,6 +311,36 @@ void registerRoutes(httplib::Server& server) {
         handleAuthenticated(request, response, [](const RuntimeSession& user) {
             return Json{{"userId", user.userId}, {"name", user.name},
                         {"admin", user.admin}};
+        });
+    });
+
+    server.Post("/api/password/request",
+        [&](const httplib::Request& request, httplib::Response& response) {
+        handleJson(response, [&] {
+            const Json body = requestJson(request);
+            const std::string email = Validator::toLower(
+                Validator::trim(requiredString(body, "email")));
+            if (!emailSender.isConfigured()) {
+                response.status = 503;
+                return Json{{"error", "Chưa cấu hình SMTP để gửi mã đặt lại mật khẩu."}};
+            }
+
+            std::optional<std::string> token;
+            {
+                std::lock_guard<std::mutex> lock(runtimeMutex);
+                token = runtime->requestPasswordReset(email);
+            }
+            if (token) {
+                try {
+                    emailSender.sendPasswordResetCode(email, *token);
+                } catch (const std::exception& error) {
+                    std::cerr << "Password reset email delivery failed: "
+                              << error.what() << '\n';
+                }
+            }
+            return Json{{"message",
+                         "Nếu email có tài khoản đang hoạt động, mã đặt lại sẽ được gửi. "
+                         "Hãy kiểm tra cả thư mục spam."}};
         });
     });
 
@@ -578,11 +610,12 @@ int main() {
             std::filesystem::create_directories(databasePath.parent_path());
         PhoneBookRuntime appRuntime(databasePath.string());
         runtime = &appRuntime;
+        EmailSender emailSender;
 
         httplib::Server server;
         if (!server.set_mount_point("/", webRoot.string()))
             throw std::runtime_error("Không thể phục vụ giao diện web.");
-        registerRoutes(server);
+        registerRoutes(server, emailSender);
 
         const char* configuredPort = std::getenv("PORT");
         const int port = configuredPort && *configuredPort

@@ -1,5 +1,6 @@
 #pragma once
 
+#include <optional>
 #include <string>
 #include <vector>
 
@@ -75,6 +76,7 @@ public:
 
     ImportResult importContacts(int userId, const std::string& filePath);
     int exportContacts(int userId, const std::string& filePath) const;
+    std::optional<std::string> requestPasswordReset(const std::string& email);
     void resetPassword(const std::string& token, const std::string& newPassword);
     std::string issuePasswordResetToken(int adminId, int userId);
 
