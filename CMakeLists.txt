@@ -49,6 +49,22 @@ target_link_libraries(PhoneBookManagementQt PRIVATE
     PhoneBookCore Qt6::Widgets Qt6::Svg
 )
 
+find_path(HTTPLIB_INCLUDE_DIR httplib.h)
+find_library(HTTPLIB_LIBRARY NAMES cpp-httplib)
+find_package(nlohmann_json CONFIG REQUIRED)
+if(NOT HTTPLIB_INCLUDE_DIR OR NOT HTTPLIB_LIBRARY)
+    message(FATAL_ERROR "cpp-httplib is required to build PhoneBookWebServer")
+endif()
+
+add_executable(PhoneBookWebServer app/server/main.cpp)
+target_include_directories(PhoneBookWebServer PRIVATE ${HTTPLIB_INCLUDE_DIR})
+target_compile_definitions(PhoneBookWebServer PRIVATE
+    PHONEBOOK_WEB_ROOT="${CMAKE_CURRENT_SOURCE_DIR}/app/web"
+)
+target_link_libraries(PhoneBookWebServer PRIVATE
+    PhoneBookCore ${HTTPLIB_LIBRARY} nlohmann_json::nlohmann_json
+)
+
 find_package(Qt6 QUIET COMPONENTS Test)
 if(Qt6Test_FOUND)
     enable_testing()

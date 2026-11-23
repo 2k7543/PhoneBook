@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4f46e5">
+  <title>Phone Book</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main id="authView" class="auth-shell">
+    <section class="auth-card">
+      <a class="brand" href="/">Phone Book</a>
+      <div class="auth-icon" aria-hidden="true">PB</div>
+      <h1 id="authTitle">Chào mừng trở lại!</h1>
+      <p id="authSubtitle" class="muted">Đăng nhập để quản lý danh bạ của bạn.</p>
+      <form id="loginForm" class="stack">
+        <label>Tên đăng nhập<input name="username" autocomplete="username" required></label>
+        <label>Mật khẩu<input name="password" type="password" autocomplete="current-password" required></label>
+        <button class="primary" type="submit">Đăng nhập</button>
+        <button class="text-button" type="button" data-view="reset">Quên mật khẩu?</button>
+        <p class="switch-copy">Chưa có tài khoản? <button class="text-button" type="button" data-view="register">Tạo tài khoản</button></p>
+      </form>
+      <form id="registerForm" class="stack hidden">
+        <label>Họ và tên<input name="fullName" autocomplete="name" required maxlength="100"></label>
+        <label>Tên đăng nhập<input name="username" autocomplete="username" required minlength="2" maxlength="30" pattern="[A-Za-z0-9][A-Za-z0-9._-]{1,29}"></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Mật khẩu<input name="password" type="password" autocomplete="new-password" minlength="8" required></label>
+        <label>Nhập lại mật khẩu<input name="confirmation" type="password" autocomplete="new-password" minlength="8" required></label>
+        <button class="primary" type="submit">Tạo tài khoản</button>
+        <p class="switch-copy">Đã có tài khoản? <button class="text-button" type="button" data-view="login">Đăng nhập</button></p>
+      </form>
+      <form id="resetForm" class="stack hidden">
+        <p class="muted">Nhập mã do quản trị viên cấp và mật khẩu mới.</p>
+        <label>Mã đặt lại<input name="token" autocomplete="one-time-code" required></label>
+        <label>Mật khẩu mới<input name="password" type="password" autocomplete="new-password" minlength="8" required></label>
+        <label>Nhập lại mật khẩu mới<input name="confirmation" type="password" autocomplete="new-password" minlength="8" required></label>
+        <button class="primary" type="submit">Đặt lại mật khẩu</button>
+        <p class="switch-copy"><button class="text-button" type="button" data-view="login">Quay lại đăng nhập</button></p>
+      </form>
+    </section>
+  </main>
+
+  <div id="appView" class="app-shell hidden">
+    <header class="topbar">
+      <a class="brand" href="/">Phone Book</a>
+      <div class="top-actions">
+        <span id="userName" class="muted"></span>
+        <button id="logoutButton" class="secondary">Đăng xuất</button>
+      </div>
+    </header>
+    <div class="workspace">
+      <aside class="sidebar">
+        <button class="nav-button active" data-mode="all">Tất cả liên hệ</button>
+        <button class="nav-button" data-mode="favorites">Yêu thích</button>
+        <div class="side-heading">NHÓM</div>
+        <div id="groupList" class="group-list"></div>
+        <button id="addGroupButton" class="nav-button add-group">＋ Tạo nhóm</button>
+        <button id="adminNav" class="nav-button admin-nav hidden" data-mode="admin">Quản trị tài khoản</button>
+      </aside>
+      <main class="content">
+        <section id="contactsPanel">
+          <div class="page-heading">
+            <div><p class="eyebrow">DANH BẠ</p><h1 id="pageTitle">Tất cả liên hệ</h1></div>
+            <button id="addContactButton" class="primary">＋ Thêm liên hệ</button>
+          </div>
+          <div class="toolbar">
+            <input id="searchInput" type="search" placeholder="Tìm tên, số điện thoại, email...">
+            <select id="sortSelect" aria-label="Sắp xếp">
+              <option value="last">Sắp xếp theo họ</option>
+              <option value="first">Sắp xếp theo tên</option>
+            </select>
+            <button id="importButton" class="secondary">Nhập CSV</button>
+            <button id="exportButton" class="secondary">Xuất CSV</button>
+            <input id="csvInput" class="hidden" type="file" accept=".csv,text/csv">
+          </div>
+          <div id="contactCount" class="muted count-line"></div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>TÊN</th><th>SỐ ĐIỆN THOẠI</th><th>EMAIL</th><th>CÔNG TY</th><th>NHÓM</th><th></th></tr></thead>
+              <tbody id="contactRows"></tbody>
+            </table>
+            <div id="emptyState" class="empty-state hidden">Chưa có liên hệ phù hợp.</div>
+          </div>
+        </section>
+        <section id="adminPanel" class="hidden">
+          <div class="page-heading">
+            <div><p class="eyebrow">QUẢN TRỊ</p><h1>Tài khoản người dùng</h1></div>
+          </div>
+          <div class="toolbar"><input id="adminSearch" type="search" placeholder="Tìm tài khoản..."></div>
+          <div id="adminCount" class="muted count-line"></div>
+          <div id="adminUsers" class="admin-list"></div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <dialog id="contactDialog">
+    <form id="contactForm" method="dialog" class="dialog-form">
+      <div class="dialog-heading"><div><p class="eyebrow">DANH BẠ</p><h2 id="contactDialogTitle">Thêm liên hệ</h2></div><button class="icon-button" type="button" data-close="contactDialog" aria-label="Đóng">×</button></div>
+      <input name="id" type="hidden">
+      <div class="form-grid">
+        <label>Họ<input name="lastName" required></label>
+        <label>Tên<input name="firstName" required></label>
+        <label>Số điện thoại<input name="phone" type="tel" required></label>
+        <label>Email<input name="email" type="email"></label>
+        <label>Công ty<input name="company"></label>
+        <label>Địa chỉ<input name="address"></label>
+        <label class="wide">Ghi chú<textarea name="note" rows="3"></textarea></label>
+      </div>
+      <div class="dialog-actions"><button class="secondary" type="button" data-close="contactDialog">Hủy</button><button class="primary" type="submit">Lưu liên hệ</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="groupDialog">
+    <form id="groupForm" method="dialog" class="dialog-form">
+      <div class="dialog-heading"><div><p class="eyebrow">NHÓM</p><h2>Tạo nhóm liên hệ</h2></div><button class="icon-button" type="button" data-close="groupDialog" aria-label="Đóng">×</button></div>
+      <label>Tên nhóm<input name="name" required maxlength="50"></label>
+      <div class="dialog-actions"><button class="secondary" type="button" data-close="groupDialog">Hủy</button><button class="primary" type="submit">Tạo nhóm</button></div>
+    </form>
+  </dialog>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+</body>
+</html>
