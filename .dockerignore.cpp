@@ -1,0 +1,10 @@
+.git
+.env
+.env.*
+!.env.example
+build*/
+build-*/
+data/
+*.db
+*.db-shm
+*.db-wal
