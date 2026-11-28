@@ -1,4 +1,0 @@
-PHONEBOOK_SMTP_URL=smtp://smtp.gmail.com:587
-PHONEBOOK_SMTP_USERNAME=your-email@gmail.com
-PHONEBOOK_SMTP_PASSWORD=your-google-app-password
-PHONEBOOK_SMTP_FROM=your-email@gmail.com
